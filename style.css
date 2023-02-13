@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(#FFEFBB,#FEFCEF);
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: made-tommy-r;
+    src: url(./fonts/MADE\ TOMMY\ Regular_PERSONAL\ USE.otf);
+}
+@font-face {
+    font-family: made-tommy-bold;
+    src: url(./fonts/MADE\ TOMMY\ Bold_PERSONAL\ USE.otf);
+}
+@font-face {
+    font-family: made-tommy-e-bold;
+    src: url(./fonts/MADE\ TOMMY\ ExtraBold_PERSONAL\ USE.otf);
+}
+@font-face {
+    font-family: made-tommy-light;
+    src: url(./fonts/MADE\ TOMMY\ Light_PERSONAL\ USE.otf);
+}
+@font-face {
+    font-family: rock-b;
+    src: url(./fonts/rockb.ttf);
+}
+@font-face {
+    font-family: rock-l;
+    src: url(./fonts/ROCK.TTF);
+}
+
+.section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 1px solid black;
+}
+
+nav{
+    width: 85%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content1{
+    width: 90%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#food{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:800;
+    font-size: 50px;
+    letter-spacing: -3px;
+    word-spacing: -12px;
+    color: #3C3C3C;
+}
+
+#ka{
+    color: #FBC147;
+}
+
+.links{
+    margin-right: 250px;
+}
+
+.links a{
+    text-decoration: none;
+    color: #3C3C3C;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 550;
+    margin-left: 60px;
+}
+
+.order{
+    font-family: made-tommy-light;
+    font-size: 15px;
+    font-weight:lighter;
+    color: #767171;
+    border: 1.5px solid #FBC147;
+    padding: 13px 40px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.order:hover{
+    background-color: #FBC147;
+    color: white;
+}
+
+.left1{
+    margin-left: 90px;
+    margin-top: 100px;
+    width: 45%;
+}
+
+#qfd{
+    font-family: made-tommy-e-bold;
+    font-size: 85px;
+    letter-spacing: -1px;
+    color: #1B1C1E;
+    line-height: 90px;
+}
+
+#para1{
+    font-family: made-tommy-r;
+    font-size: 20px;
+    color: #1B1C1E;
+    line-height: 45px;
+}
+
+#getstart{
+    margin-top: 10px;
+    background-color: orange;
+    width: fit-content;
+    color: white;
+    padding: 13px 40px;
+    font-family: made-tommy-light;
+    border-radius: 50px;
+    box-shadow: 10px 10px 25px #FBC147;
+
+}
+.right1{
+    height: 85%;
+}
+
+.content2{
+    width: 90%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left2{
+    transform: translateX(-200px);
+    background-image: url(./images/designc.png);
+    background-size: 640px;
+    background-position: center 40px;
+    width: 85%;
+}
+
+.right2{
+    transform: translateX(-150px);
+}
+
+#tvf{
+    font-family:rock-b;
+    font-weight: 900;
+    font-size: 70px;
+    width: 600px;
+}
+
+#para2{
+    margin-top: 15px;
+    font-family: rock-l;
+    font-size: 22px;
+    line-height: 38px;
+    font-weight: 550;
+}
+
+#para2 span{
+    color: orange;
+}
+
+#orderv{
+    margin-top: 20px;
+    font-family: rock-l;
+    background-color: #3C3C3C;
+    color: #FBC147;
+    font-size: 23px;
+    width: fit-content;
+    padding: 20px 45px;
+    border-radius: 10px;
+}
+
+.balls{
+    position: absolute;
+    right: -45px;
+    top: 101vh;
+    display: flex;
+    width: 150px;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 100px;
+}
+.balls1{
+    position: absolute;
+    left: -60px;
+    top: 115vh;
+    display: flex;
+    width: 150px;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 100px;
+}
+
+.ball{
+    background-color: #fbc24798;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+
+#circle{
+    z-index: -1;
+    position: absolute;
+    width: 550px;
+    height: 550px;
+    border-radius: 50%;
+    background-color: #3C3C3C;
+    left: -360px;
+}
+
+.content3{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#burger2{
+    position: absolute;
+    transform: translateX(-45%);
+    height: 70%;  
+}
+
+#ohc{
+    background-color: #767171;
+}
+
+
+
